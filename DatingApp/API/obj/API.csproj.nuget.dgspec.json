@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/monil.gandhi/Downloads/IDP/API/DatingApp/API/API.csproj": {}
+    "/Users/monil.gandhi/Downloads/IDP/API-Development/DatingApp/API/API.csproj": {}
   },
   "projects": {
-    "/Users/monil.gandhi/Downloads/IDP/API/DatingApp/API/API.csproj": {
+    "/Users/monil.gandhi/Downloads/IDP/API-Development/DatingApp/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/monil.gandhi/Downloads/IDP/API/DatingApp/API/API.csproj",
+        "projectUniqueName": "/Users/monil.gandhi/Downloads/IDP/API-Development/DatingApp/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/monil.gandhi/Downloads/IDP/API/DatingApp/API/API.csproj",
+        "projectPath": "/Users/monil.gandhi/Downloads/IDP/API-Development/DatingApp/API/API.csproj",
         "packagesPath": "/Users/monil.gandhi/.nuget/packages/",
-        "outputPath": "/Users/monil.gandhi/Downloads/IDP/API/DatingApp/API/obj/",
+        "outputPath": "/Users/monil.gandhi/Downloads/IDP/API-Development/DatingApp/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/monil.gandhi/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net7.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,12 +40,14 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[8.0.0-preview.2.23128.3, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[8.0.0-preview.2.23128.3, )"
             }
           },
           "imports": [
