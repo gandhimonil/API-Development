@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "80Nvpu8zDmuMQxEmtRFWkbhowLIhgCsc79610xqz8YdDwYEqC5KG4Mffb8aOHv0LPnQFqKui+oC9cA2gKEVapg==",
+  "dgSpecHash": "w/T5+2xitleZ3pWMvKsLgfBsa19Kg4McZepHzZMif8jjeavYAP+lp5Y48nNrRzy3e5dD5jGDXEV8I1IUrbu5pg==",
   "success": true,
   "projectFilePath": "/Users/monil.gandhi/Downloads/IDP/API-Development/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,10 @@
     "/Users/monil.gandhi/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/monil.gandhi/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/monil.gandhi/.nuget/packages/system.text.encodings.web/8.0.0-preview.2.23128.3/system.text.encodings.web.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "/Users/monil.gandhi/.nuget/packages/system.text.json/8.0.0-preview.2.23128.3/system.text.json.8.0.0-preview.2.23128.3.nupkg.sha512"
+    "/Users/monil.gandhi/.nuget/packages/system.text.json/8.0.0-preview.2.23128.3/system.text.json.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "/Users/monil.gandhi/.nuget/packages/microsoft.netcore.app.ref/7.0.2/microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "/Users/monil.gandhi/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "/Users/monil.gandhi/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.2/microsoft.netcore.app.host.osx-x64.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

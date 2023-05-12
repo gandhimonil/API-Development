@@ -1311,7 +1311,8 @@
       ],
       "sources": {
         "/usr/local/share/dotnet/library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://stealthdev.pkgs.visualstudio.com/_packaging/Monitoring/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -1351,6 +1352,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.2, 7.0.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[7.0.2, 7.0.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.2, 7.0.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1359,7 +1374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.3.23178.7/RuntimeIdentifierGraph.json"
       }
     }
   }
